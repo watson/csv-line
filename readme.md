@@ -23,7 +23,7 @@ Currently only supported in browserify is `csvLine.encode`, decode _should_ work
 ### Input
 
 ```javascript
-var csvLine = require('./csv-line')
+var csvLine = require('csv-line')
 
 var encoded = csvLine.encode([ '"hello"', 'I am a *', 'Girfriend in a ,' ])
 
